@@ -43,4 +43,4 @@ divsS = empty.shift();
   return null; */
 }
 
-console.log(deepestChild());
+console.log(document.querySelectorAll('div#grand-node')[0]);
