@@ -25,12 +25,7 @@ function deepestChild(){
         empty.push(divsS[i]);
     }
 
-  }
-
 divsS = empty.shift();
-
-
-  }
 
   return null; 
 }
