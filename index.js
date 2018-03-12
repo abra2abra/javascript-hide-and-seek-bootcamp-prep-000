@@ -20,14 +20,7 @@ function deepestChild(){
         var divsS = document.getElementById('grand-node').querySelectorAll('div');
         var empty = [];
 
- while(divsS){
-
-    if(divsS.innerHTML === 'boo!'){
-    return divsS.innerHTML;
-  }
-
-
-    if(Array.isArray(divsS)){
+ 
     for( i=0; i< divsS.length; i++ ) {
         empty.push(divsS[i]);
     }
