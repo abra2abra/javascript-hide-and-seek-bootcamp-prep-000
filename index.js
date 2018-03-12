@@ -20,8 +20,4 @@ function deepestChild(){
         var divs = document.getElementById('grand-node').querySelectorAll('div');
     
     return divs[3];
-
- 
-    
-
 }
