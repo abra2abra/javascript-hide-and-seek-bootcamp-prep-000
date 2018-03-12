@@ -26,6 +26,12 @@ function deepestChild(){
     result=divs[i].querySelector("div");
   }
 return result;
+var s = [];
+for(let i=0;i<divs.length-1;i++) {
+    result=divs[i].querySelector("div");
+    s = result.shift();
+  }
+return s;
     */
     
     return divs[divs.length -1];
