@@ -16,6 +16,8 @@ function increaseRankBy(n){
   }
 }
 
+console.log(increaseRankBy(1));
+
 function deepestChild(){
         var divsS = document.querySelectorAll('div#grand-node')[0];
 console.log(divs);
@@ -43,4 +45,4 @@ divsS = empty.shift();
   return null; */
 }
 
-console.log(document.getElementById('nested').getElementsByClassName('target'));
+//console.log(document.getElementById('nested').getElementsByClassName('target'));
