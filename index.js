@@ -21,7 +21,7 @@ function deepestChild(){
         var empty = [];
 
  
-    for( i=0; i< divs.length; i++ ) {
+    for(var i=0; i< divs.length; i++ ) {
         if(divs[i].innerHTML == 'boo!'){
           return divs[i].innerHTML;
         }
