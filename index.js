@@ -21,7 +21,7 @@ function deepestChild(){
 console.log(divs);
         var empty = [];
 
- /* while(divsS){
+ while(divsS){
 
     if(divsS.innerHTML === 'boo!'){
     return divsS.innerHTML;
@@ -40,7 +40,5 @@ divsS = empty.shift();
 
   }
 
-  return null; */
+  return null; 
 }
-
-//console.log(document.getElementById('nested').getElementsByClassName('target'));
