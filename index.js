@@ -43,4 +43,4 @@ divsS = empty.shift();
   return null; */
 }
 
-console.log(document.querySelectorAll('div#grand-node'));
+console.log(document.querySelectorAll('#grand-node'));
